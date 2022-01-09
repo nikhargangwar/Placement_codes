@@ -1,4 +1,7 @@
 #include <bits/stdc++.h>
+#include <iostream>
+#include <queue>
+#include <vector>
 using namespace std;
 
 bool bipartiteBfs(int src, vector<int> adj[], int color[]) {
@@ -32,6 +35,9 @@ bool checkBipartite(vector<int> adj[], int n) {
     }
     return true; 
 }
+
+
+
 int main() {
 	int n, m;
 	cin >> n >> m;
