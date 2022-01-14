@@ -41,6 +41,13 @@ Note that we cannot detect the direction for zero (-0 == 0), but it does not mat
 
 
 
+
+
+basic idea
+consider whole graph as undirect graph and mark nodes which move away from 0 node as negative. Traverse complete graph as undirected graph and count the number of 
+times the negative sign arrives. No of time negative sign arrives =  number of arrows whose direction is to be changed
+
+
 solution
 
 C++
