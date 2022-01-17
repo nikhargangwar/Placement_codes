@@ -51,7 +51,9 @@ public:
             }
         }
         
-       
+       //number of cycles counted has to halfed in order to get exact number of cycles in a graph
+       //because while couting the number of cycles 1 edge is counted twice
+
         if(cycle/2>=component-1)
         {
             return component-1;
